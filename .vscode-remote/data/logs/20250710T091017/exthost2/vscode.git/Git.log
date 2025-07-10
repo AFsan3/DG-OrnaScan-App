@@ -1,0 +1,51 @@
+2025-07-10 09:10:31.563 [info] [main] Log level: Info
+2025-07-10 09:10:31.563 [info] [main] Validating found git in: "git"
+2025-07-10 09:10:31.563 [info] [main] Using git "2.49.0" from "git"
+2025-07-10 09:10:31.563 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-10 09:10:31.563 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-10 09:10:31.563 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-07-10 09:10:31.563 [info] [Model][openRepository] Opened repository (path): /workspace/DG-OrnaScan-App
+2025-07-10 09:10:31.563 [info] [Model][openRepository] Opened repository (real path): /workspace/DG-OrnaScan-App
+2025-07-10 09:10:31.563 [info] > git config --get commit.template [7ms]
+2025-07-10 09:10:31.563 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-10 09:10:31.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-07-10 09:10:31.563 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/DG-OrnaScan-App/.git/refs/remotes/origin/main'
+2025-07-10 09:10:31.563 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-07-10 09:10:31.563 [info] > git rev-parse --show-toplevel [41ms]
+2025-07-10 09:10:31.563 [info] > git status -z -uall [15ms]
+2025-07-10 09:10:31.563 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-07-10 09:10:31.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-07-10 09:10:31.563 [info] > git rev-parse --show-toplevel [37ms]
+2025-07-10 09:10:31.563 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-10 09:10:31.563 [info] > git config --get commit.template [13ms]
+2025-07-10 09:10:31.563 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-07-10 09:10:31.563 [warning] [Git][config] git config failed: Failed to execute git
+2025-07-10 09:10:31.563 [info] > git reflog main --grep-reflog=branch: Created from *. [7ms]
+2025-07-10 09:10:31.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-07-10 09:10:31.563 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/DG-OrnaScan-App/.git/refs/remotes/origin/main'
+2025-07-10 09:10:31.563 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2025-07-10 09:10:31.563 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-07-10 09:10:31.563 [info] > git status -z -uall [7ms]
+2025-07-10 09:10:31.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [12ms]
+2025-07-10 09:10:31.563 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-07-10 09:10:31.563 [info] > git config --add --local branch.main.vscode-merge-base origin/main [9ms]
+2025-07-10 09:10:31.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-07-10 09:10:31.563 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-07-10 09:10:31.563 [info] > git config --get commit.template [16ms]
+2025-07-10 09:10:31.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [9ms]
+2025-07-10 09:10:31.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-07-10 09:10:31.563 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/DG-OrnaScan-App/.git/refs/remotes/origin/main'
+2025-07-10 09:10:31.563 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2025-07-10 09:10:31.563 [info] > git rev-parse refs/remotes/origin/main [47ms]
+2025-07-10 09:10:31.564 [info] > git status -z -uall [159ms]
+2025-07-10 09:10:31.564 [info] > git diff --name-status -z --diff-filter=ADMR fc7a11a6755374a719f15179854a8443353e98c8...refs/remotes/origin/main [166ms]
+2025-07-10 09:10:31.565 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [155ms]
+2025-07-10 09:10:32.076 [info] > git check-ignore -v -z --stdin [2ms]
+2025-07-10 09:11:13.981 [info] > git config --get commit.template [8ms]
+2025-07-10 09:11:13.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-10 09:11:13.987 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/DG-OrnaScan-App/.git/refs/remotes/origin/main'
+2025-07-10 09:11:13.988 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-07-10 09:11:14.006 [info] > git status -z -uall [11ms]
+2025-07-10 09:11:14.007 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-10 09:11:15.209 [info] > git config --get --local branch.main.github-pr-owner-number [3ms]
+2025-07-10 09:11:15.209 [warning] [Git][config] git config failed: Failed to execute git

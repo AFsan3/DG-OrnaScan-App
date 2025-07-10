@@ -1,0 +1,54 @@
+2025-07-10 09:10:17.334 [info] 
+
+
+
+
+2025-07-10 09:10:17.352 [info] Extension host agent started.
+2025-07-10 09:10:17.367 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2025-07-10 09:10:17.467 [info] ComputeTargetPlatform: linux-x64
+2025-07-10 09:10:17.513 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2025-07-10 09:10:17.536 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-07-10 09:10:17.537 [info] ComputeTargetPlatform: linux-x64
+2025-07-10 09:10:22.342 [info] [192.168.89.74][73561241][ManagementConnection] New connection established.
+2025-07-10 09:10:23.396 [info] [192.168.89.74][73561241][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-07-10 09:10:23.433 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2025-07-10 09:10:25.047 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2025-07-10 09:10:25.049 [info] Getting Manifest... github.vscode-pull-request-github
+2025-07-10 09:10:25.541 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.101.2","date":"2025-06-26T07:57:30.404Z"}}
+2025-07-10 09:10:25.803 [error] #5: https://open-vsx.org/vscode/gallery/vscode/github-authentication/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+2025-07-10 09:10:25.804 [error] Error while getting the latest version for the extension vscode.github-authentication. connect ECONNREFUSED 127.0.0.1:80
+2025-07-10 09:10:26.299 [info] [192.168.86.137][643dd8a7][ManagementConnection] New connection established.
+2025-07-10 09:10:27.053 [info] [192.168.89.74][9f9e60be][ExtensionHostConnection] New connection established.
+2025-07-10 09:10:27.059 [info] [192.168.89.74][9f9e60be][ExtensionHostConnection] <322> Launched Extension Host Process.
+2025-07-10 09:10:27.432 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.112.0-universal: github.vscode-pull-request-github
+2025-07-10 09:10:27.443 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.112.0-universal
+2025-07-10 09:10:27.461 [info] Extension installed successfully: github.vscode-pull-request-github file:///workspace/.vscode-remote/extensions/extensions.json
+2025-07-10 09:10:27.463 [info] Extension 'github.vscode-pull-request-github' v0.112.0 was successfully installed.
+2025-07-10 09:11:06.934 [info] [192.168.86.137][643dd8a7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-07-10 09:11:13.688 [info] [192.168.86.137][643dd8a7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-07-10 09:11:13.689 [info] [192.168.0.139][9f9e60be][ExtensionHostConnection] The client has reconnected.
+2025-07-10 09:11:14.225 [info] [192.168.0.139][643dd8a7][ManagementConnection] The client has reconnected.
+2025-07-10 09:12:14.815 [info] [192.168.0.139][643dd8a7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-07-10 09:12:25.057 [info] [192.168.0.139][643dd8a7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-07-10 09:12:25.058 [info] [192.168.86.137][643dd8a7][ManagementConnection] The client has reconnected.
+2025-07-10 09:12:25.842 [info] [192.168.86.137][9f9e60be][ExtensionHostConnection] The client has reconnected.
+2025-07-10 09:12:40.907 [info] [192.168.86.137][643dd8a7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-07-10 09:12:41.003 [info] [192.168.86.137][9f9e60be][ExtensionHostConnection] <322> Extension Host Process exited with code: 0, signal: null.
+2025-07-10 09:12:44.395 [info] [192.168.0.139][16dafc80][ManagementConnection] New connection established.
+2025-07-10 09:12:47.942 [info] [192.168.86.137][51eb2d60][ManagementConnection] New connection established.
+2025-07-10 09:12:48.668 [info] [192.168.86.137][1e34a309][ExtensionHostConnection] New connection established.
+2025-07-10 09:12:48.675 [info] [192.168.86.137][1e34a309][ExtensionHostConnection] <854> Launched Extension Host Process.
+2025-07-10 09:13:14.725 [info] [192.168.0.139][16dafc80][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-07-10 09:13:44.903 [info] [192.168.86.137][51eb2d60][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-07-10 09:15:08.968 [info] [192.168.0.139][16dafc80][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-07-10 09:15:08.968 [info] [192.168.86.137][51eb2d60][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-07-10 09:15:08.969 [info] [192.168.0.139][51eb2d60][ManagementConnection] The client has reconnected.
+2025-07-10 09:15:12.404 [info] [192.168.89.74][e01dd09c][ManagementConnection] New connection established.
+2025-07-10 09:15:13.139 [info] [192.168.86.137][f1fed017][ExtensionHostConnection] New connection established.
+2025-07-10 09:15:13.147 [info] [192.168.86.137][f1fed017][ExtensionHostConnection] <1032> Launched Extension Host Process.
+2025-07-10 09:15:18.732 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-07-10 09:15:39.248 [info] [192.168.0.139][51eb2d60][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-07-10 09:15:42.312 [info] [192.168.0.139][51eb2d60][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-07-10 09:15:42.312 [info] [192.168.86.137][e01dd09c][ManagementConnection] The client has reconnected.
+2025-07-10 09:15:42.639 [info] [192.168.86.137][f1fed017][ExtensionHostConnection] The client has reconnected.
