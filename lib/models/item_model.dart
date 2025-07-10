@@ -1,0 +1,1 @@
+// Hive model for item

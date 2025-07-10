@@ -1,0 +1,1 @@
+// Generated Hive adapter
